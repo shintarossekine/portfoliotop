@@ -1,0 +1,563 @@
+@charset "utf-8";
+@media screen and (min-width: 768px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+}
+
+
+
+img {
+    border: none;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+header {
+    width: 100%;
+    position: fixed;
+}
+
+#headerInner {
+    
+}
+/*hg*/
+.menu {
+    width: 71px;
+    height: 33px;
+    position: fixed;
+    z-index: 99;
+    top: 30px;
+    right: 30px;
+    display: none;
+}
+
+
+.menu__line {
+    background-color: #333;
+    height: 2px;
+    display: block;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%;
+}
+
+.menu__line--center {
+    top: 15px;
+}
+
+.menu__line--bottom {
+    bottom: 0;
+}
+
+.menu__line--top.active {
+    top: 9px;
+    transform: rotate(45deg);
+}
+.menu__line--center.active {
+    transform:scaleX(0);
+}
+.menu__line--bottom.active {
+    transform: rotate(135deg);
+    bottom: 22px;
+}
+
+/*gnavi*/
+
+
+#headerNavi1 {
+    width: 410px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    padding: 50px 0 100px 0;
+    
+    
+    
+}
+
+    #headerInner {
+        display: none;
+    }    
+    
+    
+    
+.gnav__inner {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gnavi__menu--item {
+    float: left;
+    padding: 0 30px 0 0;
+}
+
+
+.gnavi__menu--item a {
+    color: #222;
+    font-size: 1.8em;
+    text-decoration: none;
+    
+    
+    
+}
+
+.gnavi__menu--item:nth-child(4) {
+        padding: 0;
+    }   
+    
+.gnavi__menu--item a:hover {
+    
+    border-top: 5px solid;
+}
+
+
+.gnav__menu {
+    
+}
+#first {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    animation: bg-color 10s infinite;
+   
+    
+    
+  
+
+    
+    
+    }
+
+    #first figure {
+        
+    }    
+    
+#mainbj {
+    width: 672px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 0 0 0;
+}
+
+#mainbj figure {
+    
+}
+
+#mainbj img {
+    
+}
+#mainbj span {
+    font-size: 30px;
+    font-family: HGS明朝B;
+    color: #635757;
+    text-align: center;
+    display: block;
+}
+
+#mainbj h1 {
+    
+    font-weight: normal;
+    color: #222;
+    text-align: center;
+}
+
+    
+
+    
+    
+#about {
+width: 100%;
+height: 940px;
+margin: 0 0 100px 0;
+clear: both;
+overflow: hidden;
+background-color: #eaecee;
+background-image: url("images/pc_back.png");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+    
+    
+#aboutInner {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 34px;
+    
+}
+
+.midashi {
+    text-align: center;
+    font-family: HGS明朝B;
+    font-size: 22px;
+    color: #222;   
+}
+
+.midashi h2 {
+    line-height: 47px;
+    color: #2b76bc;
+    font-size: 60px;
+    margin-bottom: 10px;   
+}
+
+.midashi h3 {
+    font-size: 22px;
+    color: #222;   
+}
+
+
+#aboutmain {
+    margin-top: 103px;
+    width: 100%;   
+}
+
+#toptext {
+    font-size: 16px;
+    margin-bottom: 100px;    
+    
+}
+
+#plofile {
+    
+}
+
+
+#plofile figure {
+    width: 260px;
+    float: left;
+}
+
+
+#plofile img {
+    
+}
+
+#rightText {
+   float: right;
+   margin-right: 75px;
+   font-size: 16px;    
+}
+
+
+
+
+#rightText li {
+   margin-bottom: 10px;    
+}
+
+#rightText li span {
+   font-weight: bold;
+   display: inline-block;
+   width: 130px;
+    
+}
+#rightText ul #try {
+   margin: 0;
+}
+
+#sns3 {
+   margin-top: 40px;
+}
+
+    .hosoku {
+        font-weight: bold;
+    }
+
+/*mainbijual&footer*/    
+@keyframes Loop2 {
+    0% {
+        transform:  translateX(0);
+    }   
+    
+    to {
+        transform: translateX(-200%);
+    }    
+    }    
+
+    
+    .animation {
+        animation-name: animation-bgiLoop;
+    }   
+    
+    @keyframes bgiLoop {
+  0% {background-position: 0 0;}
+  100% {background-position: -381px 212px;}
+    }
+    
+    
+    
+#works {
+   width: 100%;
+   clear: both;
+   margin: 100px 0 100px 0;
+   overflow: hidden;
+   animation: bgiLoop 5s linear infinite;
+   background: url("images/haikeistar3.gif");
+   background-color: #eaecee; 
+   height: 568px; 
+    
+    
+    
+}
+
+
+    
+  
+    
+    
+@keyframes bg-color {   
+
+ 0% {background:  linear-gradient(to right, #effbfd 0%, #effbfd 50%, #bdeefe 50%, #bdeefe 100%);}   
+ 20% {background: linear-gradient(to right, #effdf2 0%, #effdf2 50%, #d2bdfe 50%, #d2bdfe 100%); }   
+ 40% {background: linear-gradient(to right, #f1effd 0%, #effdf2 50%, #bdfee0 50%, #bdfee0 100%); }  
+ 60% {background: linear-gradient(to right, #fdeff2 0%, #fdeff2 50%, #feedbd 50%, #feedbd 100%); }  
+ 80% {background: linear-gradient(to right, #faeffd 0%, #faeffd 50%, #d5febd 50%, #d5febd 100%); }  
+100% {background: linear-gradient(to right, #effbfd 0%, #effbfd 50%, #bdeefe 50%, #bdeefe 100%); }
+    }
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+#worksInner {
+   width: 860px;
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 34px;
+}
+
+
+#sakuhinsyu {
+   
+   width: 100%;
+   padding: 100px 0 100px 0;
+}
+
+
+#sakuhinsyu li {
+   float: left;
+   display: block;
+   width: 270px;
+   margin-right: 25px;
+   position: relative;
+   padding-bottom: 36px;
+}
+
+#sakuhinsyu a {
+    
+}
+
+    
+    #sakuhinsyu img {
+        width: 100%;
+    }    
+    
+#sakuhinsyu p {
+   background: #48a5d3;
+   width: 250px;
+   height: 150px;
+    
+}
+
+#sakuhinsyu h2 {
+   position: absolute;
+   top: 66px;
+   left: 16%;
+   color: #fff;
+   font-size: 22px;
+   font-family: HGP明朝E;    
+    
+    
+    
+    
+}
+
+#sakuhinsyu li:nth-child(3) {
+    margin: 0;
+}
+
+#sakuhinsyu li:nth-child(6) {
+    margin: 0;
+}
+
+#sakuhinsyu h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#sakuhinsyu span:nth-child(1) {
+    font-weight: bold;
+}
+
+
+#skill {
+    clear: both;
+    width: 100%;
+}
+
+#skillInner {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skillMain {
+    margin-top: 65px; 
+}
+
+.skills {
+    margin-bottom: 100px;  
+}
+
+.skillIcon {
+    display: block;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.skills2 {
+    width: 685px;
+}
+
+
+.skillmidashi {
+    padding-left: 20px;
+    overflow: hidden;
+    
+}
+
+.skillmidashi span {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+.skills p {
+
+    font-size: 16px;
+    font-weight: normal;
+    clear: both;
+    width: 100%;
+    margin-left: 121px;
+}
+
+
+#contact {
+    width: 100%;
+}
+
+#contactInner {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    #contactInner a {
+    text-decoration: none;
+    color: #222;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    line-height: 24px;   
+    
+    }
+    
+    #contactInner a::after {
+     border-bottom: solid 1px #222;
+     bottom: 0;
+     content: "";
+     display: block;
+     transition: all .3s ease;
+     
+     width: 0;
+    }
+    
+    
+    
+    
+    
+    
+    #contactInner a:hover::after {
+        width: 100%;
+        
+    }
+
+
+
+footer {
+    clear: both;
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+    
+    height: 100px;
+    animation: bg-color 10s infinite;
+   
+}
+
+
+#footerInner {
+    width: 401px;
+    margin-right: auto;
+    margin-left: auto;   
+}
+
+
+
+
+
+#footerInner p {
+    text-align: center;
+    padding-top: 48px;
+    color: #222;
+}
+}  
+    
+    
+    
+    
+    

@@ -1,0 +1,623 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:767px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+}
+
+
+
+img {
+    border: none;
+    display: block;
+}
+
+
+header {
+    width: 100%;
+    position: fixed;
+}
+
+#headerInner {
+    
+}
+    
+    
+    #headerNavi1 {
+        display: none; }    
+    
+/*hg*/
+.menu {
+    width: 45px;
+    height: 24px;
+    position: fixed;
+    z-index: 99;
+    top: 18px;
+    right: 32px;
+    
+}
+
+
+.menu__line {
+    background-color: #333;
+    height: 2px;
+    display: block;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%;
+}
+
+.menu__line--center {
+    top: 11px;
+}
+
+.menu__line--bottom {
+    bottom: 0;
+}
+
+.menu__line--top.active {
+    top: 9px;
+    transform: rotate(45deg);
+}
+.menu__line--center.active {
+    transform:scaleX(0);
+}
+.menu__line--bottom.active {
+    transform: rotate(135deg);
+    bottom: 13px;
+}
+
+/*gnavi*/
+
+
+#headerNavi {
+    
+    background: #fff;
+    display: none;
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    z-index: 98; 
+    right: 0;
+}
+
+.gnav__inner {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.gnavi__menu--item {
+    margin: 45px 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: block;
+    
+}
+
+
+.gnavi__menu--item a {
+    color: #555;
+    font-size: 1.6em;
+    text-decoration: none;
+    transition: .5s;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    display: block;
+    text-align: center;
+    
+    
+}
+
+.gnavi__menu--item a:hover {
+    background-color: #EDEDED;
+    
+}
+
+
+.gnav__menu {
+    width: 100%;
+}
+#first {
+    width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    animation: bg-color 10s infinite;
+  
+}
+
+#mainbj {
+    width: 72%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding: 70px 0 70px 0;
+    
+   
+}
+
+
+    
+@keyframes bg-color {   
+
+ 0% { background:  linear-gradient(to right, #effbfd 0%, #effbfd 50%, #bdeefe 50%, #bdeefe 100%); }   
+ 20% { background: linear-gradient(to right, #effdf2 0%, #effdf2 50%, #d2bdfe 50%, #d2bdfe 100%); }   
+ 40% { background: linear-gradient(to right, #f1effd 0%, #effdf2 50%, #bdfee0 50%, #bdfee0 100%); }  
+ 60% { background: linear-gradient(to right, #fdeff2 0%, #fdeff2 50%, #feedbd 50%, #feedbd 100%); }  
+ 80% { background: linear-gradient(to right, #faeffd 0%, #faeffd 50%, #d5febd 50%, #d5febd 100%); }  
+100% { background: linear-gradient(to right, #effbfd 0%, #effbfd 50%, #bdeefe 50%, #bdeefe 100%); }
+    }    
+    
+    
+#mainbj figure {
+    
+}
+
+#mainbj img {
+   width: 100%; 
+}
+#mainbj span {
+    font-size: 18px;
+    font-family: HGS明朝B;
+    color: #635757;
+    text-align: center;
+    display: block;
+}
+
+#mainbj h1 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #222;
+    text-align: center;
+}
+
+#about {
+    width: 100%;
+    margin-top: 50px;
+    height: 1000px;
+    margin-bottom: 50px;
+   background-color: #eaecee;
+   background-image: url("images/pc_back.png");
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+
+
+#aboutInner {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 34px;
+    max-width: 324px;
+    
+}
+
+.midashi {
+    text-align: center;
+    font-family: HGS明朝B;
+    font-size: 13px;
+    color: #222;
+}
+
+.midashi h2 {
+    line-height: 36px;
+    color: #2b76bc;
+    font-size: 36px; 
+}
+
+.midashi h3 {
+    margin-top: 10px;
+    color: #222;   
+}
+
+
+#aboutmain {
+    margin-top: 40px;
+    width: 100%;   
+}
+
+#toptext {
+    font-size: 14px;
+    margin-bottom: 50px;    
+    
+}
+
+#plofile {
+    
+}
+
+
+#plofile figure {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+
+#plofile img {
+   width: 100%;  
+}
+
+#rightText {
+   font-size: 14px;
+   width: 92%;
+   text-align: left;
+   padding-top: 30px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+    
+    
+    
+}
+
+
+
+
+#rightText li {
+       
+}
+
+#rightText li span {
+   font-weight: bold;
+}
+#rightText ul #try {
+   margin: 0;
+}
+
+#sns3 {
+   margin-top: 30px;
+}
+
+
+#works {
+   width: 100%;
+   clear: both;
+   overflow: hidden;
+   margin: 50px 0 50px 0;
+   animation: bgiLoop 5s linear infinite;
+   background: url("images/haikeistar3.gif");
+   background-color: #eaecee;
+    }
+
+@keyframes bgiLoop {
+    0% {background-position: 0 0;}
+  100% {background-position: -381px 212px;}
+}    
+
+.animation {
+        animation-name: animation-bgiLoop;
+    }   
+    
+#worksInner {
+   width: 68%;
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 34px;
+   max-width: 245px;
+}
+
+
+#sakuhinsyu {
+   padding: 50px 0 0 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+#sakuhinsyu li {
+   display: block;
+   position: relative;
+   padding-bottom: 22px;
+    
+    
+    
+}
+
+
+    
+    
+#sakhin1 img {
+    width: 100%;     
+        
+    }
+#sakuhinsyu p {
+    background: #48a5d3;
+    height: 150px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+#sakuhinsyu h2 {
+   position: absolute;
+   top: 66px;
+   left: 16%;
+   color: #fff;
+   font-size: 22px;
+   font-family: HGP明朝E;    
+    
+    
+    
+    
+}
+
+
+
+#sakuhinsyu h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#sakuhinsyu span:nth-child(1) {
+    font-weight: bold;
+}
+
+
+    
+    
+    #sakhin2 img {
+        width: 100%;
+    }    
+ 
+    #sakhin3 figure {
+        
+        
+    }
+    
+    
+    #sakhin3 img {
+        width: 100%;
+    }
+    
+    
+#skill {
+    clear: both;
+    width: 100%;
+}
+
+#skillInner {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 338.5px;
+}
+
+#skillMain {
+    margin-top: 50px; 
+}
+
+.skills {
+    margin-bottom: 50px;  
+}
+
+.skillIcon {
+    display: block;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+  
+    
+.skillIcon img {
+     width: 100%;   
+        
+    }    
+
+
+.skillmidashi {
+    padding-left: 15px;
+    overflow: hidden;
+    
+}
+
+    
+.star {
+    width: 37%;
+    
+    
+    
+    
+    
+    }    
+
+    
+.star img {
+     width: 100%;
+    
+    
+    
+    
+    }
+.skillmidashi span {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+ #rightText li span {
+   font-weight: bold;
+   display: inline-block;
+   width: 40%;
+    
+} 
+
+
+.skills p {
+
+    font-size: 14px;
+    font-weight: normal;
+    clear: both;
+    padding-top: 20px;
+    
+}
+
+.skills p span {
+      font-weight: bold;
+    }    
+    
+    
+    
+
+#contact {
+    width: 100%;
+}
+
+#contactInner {
+    width: 94%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 338.4px;
+}
+
+    #contactInner a {
+    text-decoration: none;
+    color: #222;
+    text-align: left;
+    display: block;
+    margin-top: 40px;
+    width: 54%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    line-height: 22px;   
+    
+    }
+    
+   
+    
+       #contactInner a::after {
+     border-bottom: solid 1px #222;
+     bottom: 0;
+     content: "";
+     display: block;
+     transition: all .3s ease;
+     
+     width: 0;
+    }
+    
+    
+    
+    
+    
+    
+    #contactInner a:hover::after {
+        width: 100%;
+        
+    } 
+    
+    
+footer {
+    clear: both;
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    height: 80px;
+    animation: bg-color 10s infinite;
+   
+}
+
+
+#footerInner {
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+
+
+
+
+#footerInner p {
+    text-align: center;
+    padding-top: 39px;
+    color: #222;
+    font-size: 14px; 
+}
+   
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
