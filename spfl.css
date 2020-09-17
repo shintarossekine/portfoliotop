@@ -194,7 +194,6 @@ header {
     margin-bottom: 50px;
    background-color: #eaecee;
    background-image: url("images/pc_back.png");
-   background-attachment: fixed;
    background-position: center;
    background-size: cover;
    padding: 57.8665px 0;
