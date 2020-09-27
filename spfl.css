@@ -294,9 +294,7 @@ header {
    clear: both;
    overflow: hidden;
    margin: 50px 0 50px 0;
-   animation: bgiLoop 5s linear infinite;
-   background: url("images/haikeistar3.gif");
-   background-color: #eaecee;
+   background-color: #f2f2f2;
     }
 
 @keyframes bgiLoop {
