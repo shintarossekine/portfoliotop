@@ -187,7 +187,7 @@ height: 940px;
 margin: 0 0 100px 0;
 clear: both;
 overflow: hidden;
-background-color: #eaecee;
+background-color: #f2f2f2;
 background-image: url("images/pc_back.png");
 background-attachment: fixed;
 background-position: center;
@@ -311,9 +311,8 @@ background-size: cover;
    clear: both;
    margin: 100px 0 100px 0;
    overflow: hidden;
-   animation: bgiLoop 5s linear infinite;
-   background: url("images/haikeistar3.gif");
-   background-color: #eaecee; 
+  
+   background-color: #f2f2f2; 
    height: 568px; 
     
     
