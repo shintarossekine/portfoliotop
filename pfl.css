@@ -208,16 +208,18 @@ background-size: cover;
 
 .midashi {
     text-align: center;
-    font-family: HGS明朝B;
+    font-family: 小塚ゴシックPro;
     font-size: 22px;
-    color: #222;   
+    color: #222; 
+    
 }
 
 .midashi h2 {
     line-height: 47px;
     color: #2b76bc;
     font-size: 60px;
-    margin-bottom: 10px;   
+    margin-bottom: 10px; 
+    font-weight: normal;
 }
 
 .midashi h3 {
