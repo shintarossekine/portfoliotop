@@ -211,7 +211,7 @@ header {
 
 .midashi {
     text-align: center;
-    font-family: HGS明朝B;
+    font-family: 小塚ゴシックPro;
     font-size: 13px;
     color: #222;
 }
@@ -219,7 +219,8 @@ header {
 .midashi h2 {
     line-height: 36px;
     color: #2b76bc;
-    font-size: 36px; 
+    font-size: 36px;
+    font-weight: normal;
 }
 
 .midashi h3 {
