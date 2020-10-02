@@ -75,13 +75,13 @@ header {
 
 
 #headerNavi1 {
-    width: 410px;
+    width: 468px;
     display: block;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
     padding: 70px 0 180px 0;
-    
+    font-family: HGS明朝B;
     
     
 }
@@ -106,7 +106,7 @@ header {
 
 .gnavi__menu--item a {
     color: #222;
-    font-size: 1.8em;
+    font-size: 2.4em;
     text-decoration: none;
     
     
