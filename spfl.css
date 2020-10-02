@@ -566,8 +566,8 @@ z-index: 0;
       display: block;
       text-align: center;
       position: absolute;
-      font-size: 18px;
-      padding: 5.5px 0;
+      font-size: 16px;
+      padding: 6.5px 0;
       width: 100%;
       z-index: 1;
     }
