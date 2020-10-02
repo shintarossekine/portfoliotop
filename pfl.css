@@ -492,40 +492,72 @@ background-size: cover;
     margin-right: auto;
     margin-left: auto;
 }
-
-    #contactInner a {
-    text-decoration: none;
-    color: #222;
-    text-align: center;
-    display: block;
-    margin-top: 40px;
-    width: 240px;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 20px;
-    line-height: 24px;   
-    
-    }
-    
-    #contactInner a::after {
-     border-bottom: solid 1px #222;
-     bottom: 0;
-     content: "";
+.contact_button {
      display: block;
-     transition: all .3s ease;
-     
-     width: 0;
+border-radius: 16px;
+background: #3e85ff;
+background: linear-gradient(-45deg, #3e85ff 45%,#64a0ff 74%,#39d6eb 94%);
+width: 240px;
+box-shadow: 0 2px 4px 0 rgba(51, 124, 255, 0.6);
+margin-left: auto;
+margin-right: auto;
+text-decoration: none;
+margin-top: 40px;
+color: #fff;
+position: relative;
+height: 42px;
+    } 
+ 
+  
+    
+    
+    
+    
+ .contact_button::before {
+content: "";
+display: block;
+position: absolute;
+width: 0px;
+height: 0px;
+margin: auto;
+left: 2px;
+top: 2px;
+bottom: 2px;
+right: 2px;
+border-radius: 16px;
+transition: ease-out all .2s;
+background-color: #fff;
+z-index: 0;
     }
-    
-    
-    
-    
-    
-    
-    #contactInner a:hover::after {
-        width: 100%;
+ 
+    .contact_button:hover::before {
+        width: 234px;
+        height: 38px;
         
+    }  
+    
+    
+    
+    
+  .contact_button::after {  
+     clear: both;
     }
+    
+    
+    .contact_button span {
+      display: block;
+      text-align: center;
+      position: absolute;
+      font-size: 18px;
+      padding: 7.5px 0;
+      width: 100%;
+      z-index: 1;
+    }
+    
+     .contact_button span:hover {
+        color: #3e85ff;
+    }
+
 
 
 
