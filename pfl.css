@@ -80,7 +80,7 @@ header {
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
-    padding: 50px 0 100px 0;
+    padding: 70px 0 180px 0;
     
     
     
@@ -127,23 +127,34 @@ header {
     
 }
 #first {
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: auto;
-    overflow: hidden;
-    clear: both;
-    animation: bg-color 10s infinite;
-   
-    
-    
-  
-
-    
+width: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+height: auto;
+overflow: hidden;
+clear: both;
+background: linear-gradient(45deg, #6cb8ff, #bdeefe, #bdfee0,#d2bdfe);   
+animation: AnimationName 9s ease infinite;
+background-size: 300% 300%;
     
     }
 
+@keyframes AnimationName {
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     #first figure {
         
     }    
@@ -152,7 +163,7 @@ header {
     width: 672px;
     margin-right: auto;
     margin-left: auto;
-    padding: 100px 0 0 0;
+    padding: 180px 0 0 0;
 }
 
 #mainbj figure {
@@ -211,15 +222,14 @@ background-size: cover;
     font-family: 小塚ゴシックPro;
     font-size: 22px;
     color: #222; 
-    
+    font-weight: bold;
 }
 
 .midashi h2 {
     line-height: 47px;
     color: #2b76bc;
     font-size: 60px;
-    margin-bottom: 10px; 
-    font-weight: bold;
+    margin-bottom: 10px;   
 }
 
 .midashi h3 {
@@ -313,7 +323,6 @@ background-size: cover;
    clear: both;
    margin: 100px 0 100px 0;
    overflow: hidden;
-  
    background-color: #f2f2f2; 
    height: 568px; 
     
@@ -324,21 +333,13 @@ background-size: cover;
 
     
   
+ 
     
-    
-@keyframes bg-color {   
 
- 0% {background:  linear-gradient(to right, #effbfd 0%, #effbfd 50%, #bdeefe 50%, #bdeefe 100%);}   
- 20% {background: linear-gradient(to right, #effdf2 0%, #effdf2 50%, #d2bdfe 50%, #d2bdfe 100%); }   
- 40% {background: linear-gradient(to right, #f1effd 0%, #effdf2 50%, #bdfee0 50%, #bdfee0 100%); }  
- 60% {background: linear-gradient(to right, #fdeff2 0%, #fdeff2 50%, #feedbd 50%, #feedbd 100%); }  
- 80% {background: linear-gradient(to right, #faeffd 0%, #faeffd 50%, #d5febd 50%, #d5febd 100%); }  
-100% {background: linear-gradient(to right, #effbfd 0%, #effbfd 50%, #bdeefe 50%, #bdeefe 100%); }
-    }
         
     
     
-    
+
     
     
     
@@ -482,6 +483,10 @@ background-size: cover;
     margin-left: 121px;
 }
 
+  
+    
+    
+    
 
 #contact {
     width: 100%;
@@ -492,6 +497,13 @@ background-size: cover;
     margin-right: auto;
     margin-left: auto;
 }
+
+   
+    
+    
+    
+    
+    
 .contact_button {
      display: block;
 border-radius: 16px;
@@ -560,15 +572,15 @@ z-index: 0;
 
 
 
-
 footer {
     clear: both;
     width: 100%;
     display: block;
     margin-top: 100px;
-    
     height: 100px;
-    animation: bg-color 10s infinite;
+   background: linear-gradient(45deg, #6cb8ff, #bdeefe, #bdfee0,#d2bdfe);   
+   animation: AnimationName 9s ease infinite;
+   background-size: 300% 300%;
    
 }
 
