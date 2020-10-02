@@ -130,18 +130,28 @@ header {
     width: 100%;
 }
 #first {
-    width: 100%;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+height: auto;
+overflow: hidden;
+clear: both;
+background: linear-gradient(45deg, #6cb8ff, #bdeefe, #bdfee0,#d2bdfe);   
+animation: AnimationName 9s ease infinite;
+background-size: 300% 300%;
     
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: auto;
-    overflow: hidden;
-    clear: both;
-    animation: bg-color 10s infinite;
-  
-}
-
+    }
+    
+ @keyframes AnimationName {
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}   
+    
+    
+    
+    
+    
 #mainbj {
     width: 72%;
     margin-right: auto;
@@ -154,15 +164,20 @@ header {
 
 
     
-@keyframes bg-color {   
 
- 0% { background:  linear-gradient(to right, #effbfd 0%, #effbfd 50%, #bdeefe 50%, #bdeefe 100%); }   
- 20% { background: linear-gradient(to right, #effdf2 0%, #effdf2 50%, #d2bdfe 50%, #d2bdfe 100%); }   
- 40% { background: linear-gradient(to right, #f1effd 0%, #effdf2 50%, #bdfee0 50%, #bdfee0 100%); }  
- 60% { background: linear-gradient(to right, #fdeff2 0%, #fdeff2 50%, #feedbd 50%, #feedbd 100%); }  
- 80% { background: linear-gradient(to right, #faeffd 0%, #faeffd 50%, #d5febd 50%, #d5febd 100%); }  
-100% { background: linear-gradient(to right, #effbfd 0%, #effbfd 50%, #bdeefe 50%, #bdeefe 100%); }
-    }    
+ @keyframes AnimationName {
+
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}  
+    
+    
+    
+    
+    
+    
+    
     
     
 #mainbj figure {
@@ -192,8 +207,8 @@ header {
     margin-top: 50px;
     height: auto;
     margin-bottom: 50px;
-   background-color: #f2f2f2;
-   
+   background-color: #eaecee;
+   background-image: url("images/pc_back.png");
    background-position: center;
    background-size: cover;
    padding: 57.8665px 0;
@@ -220,7 +235,7 @@ header {
     line-height: 36px;
     color: #2b76bc;
     font-size: 36px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .midashi h3 {
@@ -295,7 +310,8 @@ header {
    clear: both;
    overflow: hidden;
    margin: 50px 0 50px 0;
-   background-color: #f2f2f2;
+   
+   background-color: #eaecee;
     }
 
 @keyframes bgiLoop {
@@ -490,12 +506,15 @@ header {
     margin-left: auto;
     
 }
-.contact_button {
+
+ 
+    
+   .contact_button {
      display: block;
 border-radius: 16px;
 background: #3e85ff;
 background: linear-gradient(-45deg, #3e85ff 45%,#64a0ff 74%,#39d6eb 94%);
-width: 240px;
+width: 48%;
 box-shadow: 0 2px 4px 0 rgba(51, 124, 255, 0.6);
 margin-left: auto;
 margin-right: auto;
@@ -503,7 +522,7 @@ text-decoration: none;
 margin-top: 40px;
 color: #fff;
 position: relative;
-height: 42px;
+height: 36px;
     } 
  
   
@@ -529,8 +548,8 @@ z-index: 0;
     }
  
     .contact_button:hover::before {
-        width: 234px;
-        height: 38px;
+       width: 98%;
+       height: 32px;
         
     }  
     
@@ -547,16 +566,17 @@ z-index: 0;
       text-align: center;
       position: absolute;
       font-size: 18px;
-      padding: 7.5px 0;
+      padding: 5.5px 0;
       width: 100%;
       z-index: 1;
     }
     
      .contact_button span:hover {
         color: #3e85ff;
-    }
-
-
+    } 
+    
+    
+    
     
     
 footer {
@@ -565,7 +585,9 @@ footer {
     display: block;
     margin-top: 50px;
     height: 80px;
-    animation: bg-color 10s infinite;
+    background: linear-gradient(45deg, #6cb8ff, #bdeefe, #bdfee0,#d2bdfe);   
+animation: AnimationName 9s ease infinite;
+background-size: 300% 300%;
    
 }
 
@@ -588,66 +610,3 @@ footer {
 }
    
 }
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
