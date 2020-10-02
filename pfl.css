@@ -229,7 +229,8 @@ background-size: cover;
     line-height: 47px;
     color: #2b76bc;
     font-size: 60px;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
+    font-weight: normal;
 }
 
 .midashi h3 {
