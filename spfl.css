@@ -136,7 +136,7 @@ background-position: center center;
 height: auto;
 overflow: hidden;
 clear: both;
-background: linear-gradient(45deg, #6cb8ff, #bdeefe, #bdfee0,#d2bdfe);   
+background: linear-gradient(45deg, #23D6DB, #900DDB, #DB6418,#B5DB0D);   
 animation: AnimationName 9s ease infinite;
 background-size: 300% 300%;
     
@@ -235,12 +235,13 @@ background-size: 300% 300%;
     line-height: 36px;
     color: #2b76bc;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: normal;
+    font-family:  HGP明朝B;
 }
 
 .midashi h3 {
     margin-top: 10px;
-    color: #222; 
+    color: #222;
     font-family:  HGP明朝B;
 }
 
@@ -586,7 +587,7 @@ footer {
     display: block;
     margin-top: 50px;
     height: 80px;
-    background: linear-gradient(45deg, #6cb8ff, #bdeefe, #bdfee0,#d2bdfe);   
+    background: linear-gradient(45deg, #23D6DB, #900DDB, #DB6418,#B5DB0D);    
 animation: AnimationName 9s ease infinite;
 background-size: 300% 300%;
    
