@@ -510,7 +510,7 @@ background-size: cover;
      display: block;
 border-radius: 16px;
 background: #3e85ff;
-background: linear-gradient(-45deg, #3e85ff 45%,#64a0ff 74%,#39d6eb 94%);
+background: linear-gradient(-45deg, #3981DB 40%,#DB210D 72%,#BADB23 94%);
 width: 240px;
 box-shadow: 0 2px 4px 0 rgba(51, 124, 255, 0.6);
 margin-left: auto;
