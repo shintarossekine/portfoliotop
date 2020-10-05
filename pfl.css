@@ -75,14 +75,14 @@ header {
 
 
 #headerNavi1 {
-    width: 468px;
+    
     display: block;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
     padding: 70px 0 180px 0;
     font-family: HGS明朝B;
-    
+    width: 468px;
     
 }
 
@@ -133,7 +133,7 @@ background-position: center center;
 height: auto;
 overflow: hidden;
 clear: both;
-background: linear-gradient(45deg, #6cb8ff, #bdeefe, #bdfee0,#d2bdfe);   
+background: linear-gradient(45deg, #23D6DB, #900DDB, #DB6418,#B5DB0D);   
 animation: AnimationName 9s ease infinite;
 background-size: 300% 300%;
     
@@ -228,15 +228,15 @@ background-size: cover;
 .midashi h2 {
     line-height: 47px;
     color: #2b76bc;
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 10px;
     font-weight: normal;
 }
 
 .midashi h3 {
     font-size: 22px;
-    color: #222;
-    font-family:  HGP明朝B;
+    color: #222;  
+    font-weight: normal;
 }
 
 
@@ -580,7 +580,7 @@ footer {
     display: block;
     margin-top: 100px;
     height: 100px;
-   background: linear-gradient(45deg, #6cb8ff, #bdeefe, #bdfee0,#d2bdfe);   
+   background: linear-gradient(45deg, #23D6DB, #900DDB, #DB6418,#B5DB0D);  
    animation: AnimationName 9s ease infinite;
    background-size: 300% 300%;
    
